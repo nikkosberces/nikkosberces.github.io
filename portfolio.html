@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media-query.css" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <header class="home">
+      <div class="logo">NSB</div>
+      <button class="hamburger">&#9776;</button>
+      <nav class="menu">
+        <ul>
+          <li class="menuitem"><a href="#home">Home</a></li>
+          <li class="menuitem"><a href="#about me">About Me</a></li>
+          <li class="menuitem"><a href="#projects">Projects</a></li>
+          <li class="menuitem"><a href="path/to/resume.pdf" download>Download CV</a></li>
+          <li class="menuitem"><a href="#contact-me">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+
+    <section class="profile-pic">
+      <img src="images/profilepic.jpg" alt="" />
+      <p class="profession">"Full Stock Web Developer from province of Albay"</p>
+    </section>
+
+ <section class="about-section">
+		<h2>About Me</h2>
+		<p> 
+      <div class="name">
+      Hi, I'm Nikko Pebrero Berces.</div>
+      Experienced Web Developer adept in all stages of advanced web development. Knowledgeable in user interface, testing, 
+      and debugging processes.  
+      Proficient in an assortment of technologies, 
+      including JavaScript, CSS, HTML, and Microsoft SQL Server. Able to effectively self-manage during independent projects, as well as collaborate in a team setting.
+
+    </p>
+	</div>
+
+	<div class="experience-section">
+		<h2>Experience</h2>
+		<ul class="job-list">
+      <li>Current student of KODEGO (present)</li>
+      <li>Technical Support (July, 2016 to present)</li>
+      <li>Sale Clerk (November, 2014 to October, 2015)</li>
+      <li>Service Crew (May, 2013 to August, 2014)</li>
+    </ul>
+  </section>
+    
+    <section class="projects">
+      <h2>Projects</h2>
+      <ul class="projects-list">
+        <li class="rps"> <button class="play-game">Play Game</button></li>
+        <li><a href=""> </a> Calculator</li>
+        <li><a href="">Project 3</a> </li>
+        <li><a href="">Project 4</a> </li>
+        <li><a href="">Project 5</a> </li>
+        <li><a href="">Project 6</a> </li>
+        <li><a href="">Project 7</a> </li>
+        <li><a href="">Project 8</a> </li>
+      </ul>
+    </section>
+
+    <section class="contact-me">
+      <h2>Contact me</h2>
+      <form action="submit-form.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Kasey Landry" />
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="@example.com" required />
+    
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" 
+        placeholder="+63 Philippines" pattern="\+63\d{3}\d{3}\d{4}, \09\d{3}\d{3}\d{4}", required />
+    
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+    
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <footer>
+      <div class="social-icons">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-google"></i></a>
+      </div>
+      <p>&copy; 2023 @Nikko . All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+    </body>
+</html>
