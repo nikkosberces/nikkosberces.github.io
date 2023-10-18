@@ -13,15 +13,15 @@
     <title>My Portfolio</title>
   </head>
   <body>
-    <header class="home">
+    <header class="home-section" id="home">
       <div class="logo">NSB</div>
       <button class="hamburger">&#9776;</button>
       <nav class="menu">
         <ul>
           <li class="menuitem"><a href="#home">Home</a></li>
-          <li class="menuitem"><a href="#about me">About Me</a></li>
+          <li class="menuitem"><a href="#about-me">About Me</a></li>
           <li class="menuitem"><a href="#projects">Projects</a></li>
-          <li class="menuitem"><a href="path/to/resume.pdf" download>Download CV</a></li>
+          <li class="menuitem"><a href="https://drive.google.com/file/d/1Y5vIlk6GmtRvbFk37FdYbleLlKdrFfYW/view?usp=sharing" target="_blank" download>Download CV</a></li>
           <li class="menuitem"><a href="#contact-me">Contact Me</a></li>
         </ul>
       </nav>
@@ -33,7 +33,7 @@
       <p class="profession">"Full Stock Web Developer from province of Albay"</p>
     </section>
 
- <section class="about-section">
+ <section class="about-me-section" id="about-me">
 		<h2>About Me</h2>
 		<p> 
       <div class="name">
@@ -49,20 +49,20 @@
 	<div class="experience-section">
 		<h2>Experience</h2>
 		<ul class="job-list">
-      <li>Current student of KODEGO (present)</li>
+      <li>KodeGo Graduate Batch w56p</li>
       <li>Technical Support (July, 2016 to present)</li>
       <li>Sale Clerk (November, 2014 to October, 2015)</li>
       <li>Service Crew (May, 2013 to August, 2014)</li>
     </ul>
   </section>
     
-    <section class="projects">
+    <section class="projects-section" id="projects">
       <h2>Projects</h2>
       <ul class="projects-list">
-        <li class="rps"> <button class="play-game">Play Game</button></li>
+        <li class="rps"></li>
         <li><a href=""> </a> Calculator</li>
-        <li><a href="">Project 3</a> </li>
-        <li><a href="">Project 4</a> </li>
+        <li><a href="">TicTacToe</a> </li>
+        <li><a href="">Library</a> </li>
         <li><a href="">Project 5</a> </li>
         <li><a href="">Project 6</a> </li>
         <li><a href="">Project 7</a> </li>
@@ -70,8 +70,9 @@
       </ul>
     </section>
 
-    <section class="contact-me">
+    <section class="contact-me-section" id="contact-me">
       <h2>Contact me</h2>
+      <p>Feel free to get in touch with me by filling out the form below. I'll get back to you as soon as possible.</p>
       <form action="submit-form.php" method="POST">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required placeholder="Kasey Landry" />
@@ -89,7 +90,7 @@
         <button type="submit">Send</button>
       </form>
     </section>
-
+    
     <footer>
       <div class="social-icons">
         <a href="#"><i class="fa fa-facebook"></i></a>
