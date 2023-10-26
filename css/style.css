@@ -213,10 +213,6 @@ nav a:hover {
   margin: 0;
 }
 
-.projects-list .rps {
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-rheDZsV32VBEn7PlTr7CBYJdmMj3zX081A&usqp=CAU);
-}
-
 .projects-list li {
   border: 2px solid #333;
   border-radius: 10px;
